@@ -32,6 +32,7 @@ namespace WebApiOne
                       opt.RequireHttpsMetadata = false;
                       opt.Authority = "https://localhost:44374";
                       opt.Audience = "companyApi";
+                       
                     });
             services.AddControllers();
             services.AddSwaggerGen(c =>
